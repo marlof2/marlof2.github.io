@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="assets/images/logo-128x107-98.png" type="image/x-icon">
     <meta name="description" content="SUPORTE GLOBAL 24X7 365,  Manutenção preventiva 
-          e corretiva para equipamentos de TI. Consultoria de TI e revenda de produtos de TI. Contratos em serviços de TI">
+     e corretiva para equipamentos de TI. Consultoria de TI e revenda de produtos de TI. Contratos em serviços de TI">
     <title> Solutech Solução em Tecnologia </title>
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -32,7 +32,6 @@
     <style>
         .mbr-table{
             background-color: black;
-
         }
 
         .navbar-dropdown .navbar-logo img {
@@ -40,8 +39,6 @@
         }
         .navbar-dropdown .navbar-brand{
             padding: 0.0rem 0;
-
-
         }
     </style>
 </head>
@@ -71,7 +68,7 @@
                             <div class="hamburger-icon"></div>
                         </button>
                         <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
-                            <li class="nav-item"><a class="nav-link link" href="index.html">INICIO</a></li><li class="nav-item">
+                            <li class="nav-item"><a class="nav-link link" href="#" onclick="goTopScroller('#form2-w')" >INICIO</a></li><li class="nav-item">
                                 <a class="nav-link link" href="consultoria-de-ti.html">EMPRESA</a></li><li class="nav-item dropdown">
                                 <a class="nav-link link" href="solucoes.html">SOLUÇÕES</a></li><li class="nav-item dropdown open">
 
@@ -230,10 +227,6 @@
                                         </div>
                                     </div>
                                 </section>
-
-
-
-
 
                                 <section class="mbr-section mbr-section__container article" id="header3-p" data-rv-view="1701" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 0px;">
                                     <div class="container">
@@ -460,7 +453,7 @@
                                     </div>
                                 </footer>         
                                 <input name="animation" type="hidden">
-                                </body>
+
                                 <!-- Smartsupp Live Chat script -->
                                 <script type="text/javascript">
                                     var _smartsupp = _smartsupp || {};
@@ -478,6 +471,18 @@
                                         c.src = 'https://www.smartsuppchat.com/loader.js?';
                                         s.parentNode.insertBefore(c, s);
                                     })(document);
+
+                                    function goTopScroller(elementId) {
+                                        var target = $(elementId);
+                                        if (target.length) {
+                                            $('html, body').stop().animate({
+                                                scrollTop: target.offset().top
+                                            }, 3000);
+                                        }
+                                    }
+
+
+
                                 </script>
                                 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/web/assets/jquery/jquery.min.js"></script>
                                 <script src="assets/tether/tether.min.js"></script>
@@ -490,3 +495,4 @@
                                 <script src="assets/theme/js/script.js"></script>
                                 <script src="assets/mobirise3-blocks-plugin/js/script.js"></script>
                                 <script src="assets/formoid/formoid.min.js"></script>
+                                </body>
