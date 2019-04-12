@@ -32,10 +32,7 @@
 
 
 /*class que responsavel pelo css do menu*/
-.mbr-table{
-    background-color: black;
 
-}
 /*Tamanho da logo*/ 
 .navbar-dropdown .navbar-logo img {
     height: 5.125rem; 
@@ -44,14 +41,19 @@
 .navbar-dropdown .navbar-brand{
     padding: 0.0rem 0;
 }
- /*class que responsavel pelo css do topo*/
-#extMenu1-j .navbar, #extMenu1-j .nav-dropdown-sm, #extMenu1-j .nav-dropdown-sm .link[aria-expanded=true], #extMenu1-j .nav-dropdown-sm .dropdown-menu{
-    background: #FF5722;
+/*class que responsavel pelo css do topo*/
+/*#extMenu1-j .navbar, #extMenu1-j .nav-dropdown-sm, #extMenu1-j .nav-dropdown-sm .link[aria-expanded=true], #extMenu1-j .nav-dropdown-sm .dropdown-menu{
+    background: #FF5722;*/
 
-}
+/*}*/
 [role=button], a, area, button, input, label, select, summary, textarea{
     color:#ffffff; 
+
+
+}
+
+#extMenu1-j .navbar, #extMenu1-j .nav-dropdown-sm, #extMenu1-j .nav-dropdown-sm .link[aria-expanded=true], #extMenu1-j .nav-dropdown-sm .dropdown-menu{
     
-    
+ background:#ca5d2a00;   
     
 }
