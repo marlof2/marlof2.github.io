@@ -54,6 +54,18 @@
 
 #extMenu1-j .navbar, #extMenu1-j .nav-dropdown-sm, #extMenu1-j .nav-dropdown-sm .link[aria-expanded=true], #extMenu1-j .nav-dropdown-sm .dropdown-menu{
     
- background:#ca5d2a00;   
+ background:#16161600;   
     
+}
+
+.menu-fix{
+    background: #000000c7 !important;
+}
+
+.menu-fix .navbar-logo img{
+        height: 4rem !important;
+}
+
+.menu-fix .mbr-table-cell{
+        height: auto;
 }
